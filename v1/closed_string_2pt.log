@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.8.25)  17 NOV 2025 18:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.8.25)  11 MAR 2026 09:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -966,234 +966,84 @@ Package refcheck Warning: Unlabelled equation (15) on input line 114.
 Package refcheck Warning: Unlabelled equation (16) on input line 116.
 
 
-Package refcheck Warning: Unlabelled equation (17) on input line 123.
+Package refcheck Warning: Unlabelled equation (17) on input line 127.
 
 
-Package refcheck Warning: Unlabelled equation (18) on input line 128.
-
-
-Package refcheck Warning: Unlabelled equation (19) on input line 133.
-
-
-Package refcheck Warning: Unlabelled equation (20) on input line 139.
+Package refcheck Warning: Unlabelled equation (18) on input line 131.
 
 
 
 [3]
 
-Package refcheck Warning: Unlabelled equation (21) on input line 148.
+LaTeX Warning: Reference `' on page 4 undefined on input line 134.
 
 
-Package refcheck Warning: Unlabelled equation (22) on input line 155.
+Package refcheck Warning: Unused label `contri_2' on input line 140.
 
-
-Package refcheck Warning: Unlabelled equation (23) on input line 161.
-
-
-Package refcheck Warning: Unlabelled equation (24) on input line 164.
-
-
-Package refcheck Warning: Unlabelled equation (25) on input line 169.
-
-
-Overfull \hbox (15.56151pt too wide) in alignment at lines 167--169
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 14
+1.
+(/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+)
+Overfull \hbox (4.64178pt too wide) in alignment at lines 136--141
  [][][] []
  []
 
 
-Package refcheck Warning: Unlabelled equation (26) on input line 172.
+Package refcheck Warning: Unlabelled equation (20) on input line 147.
 
 
-Package refcheck Warning: Unlabelled equation (27) on input line 178.
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 151.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 151.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 151.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 151.
+
+
+Package refcheck Warning: Unlabelled equation (21) on input line 166.
 
 
 
 [4]
 
-Package refcheck Warning: Unlabelled equation (28) on input line 187.
+Package refcheck Warning: Unlabelled equation (22) on input line 178.
 
 
-Package refcheck Warning: Unlabelled equation (29) on input line 191.
-
-
-LaTeX Warning: Reference `' on page 5 undefined on input line 194.
-
-LaTeX Font Info:    Trying to load font information for T1+pcr on input line 20
-1.
-(/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/t1pcr.fd
-File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-)
-Overfull \hbox (4.64178pt too wide) in alignment at lines 196--201
+Overfull \hbox (27.55527pt too wide) in alignment at lines 170--178
  [][][] []
  []
 
 
-Package refcheck Warning: Unlabelled equation (31) on input line 207.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 211.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 211.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 211.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 211.
-
-
-Package refcheck Warning: Unlabelled equation (32) on input line 226.
+Package refcheck Warning: Unlabelled equation (23) on input line 182.
 
 
 
 [5]
 
-Package refcheck Warning: Unlabelled equation (33) on input line 238.
+Package refcheck Warning: Unlabelled equation (24) on input line 194.
 
-
-Overfull \hbox (27.55527pt too wide) in alignment at lines 230--238
- [][][] []
- []
-
-
-Package refcheck Warning: Unlabelled equation (34) on input line 242.
-
-
-
-[6]
-
-Package refcheck Warning: Unlabelled equation (35) on input line 254.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 256.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 256.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 256.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 256.
-
-
-Overfull \hbox (46.52086pt too wide) in alignment at lines 258--266
- [][][] []
- []
-
-
-Package refcheck Warning: Unlabelled equation (36) on input line 281.
-
-
-Overfull \hbox (30.18571pt too wide) in alignment at lines 284--296
- [][][] []
- []
-
-
-
-[7
-pdfTeX warning (ext4): destination with the same identifier (name{equation.35})
- has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.296 \ee
-         
-pdfTeX warning (ext4): destination with the same identifier (name{equation.36})
- has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.296 \ee
-         
-pdfTeX warning (ext4): destination with the same identifier (name{equation.36})
- has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.296 \ee
-         ]
-
-Package refcheck Warning: Unlabelled equation (37) on input line 300.
-
-
-Package refcheck Warning: Unlabelled equation (38) on input line 306.
-
-
-Package refcheck Warning: Unlabelled equation (39) on input line 338.
-
-
-Overfull \hbox (24.01494pt too wide) in alignment at lines 333--338
- [][][] []
- []
-
-
-Package refcheck Warning: Unlabelled equation (40) on input line 350.
-
-
-Overfull \hbox (2.50632pt too wide) in alignment at lines 340--350
- [][][] []
- []
-
-
-
-[8
-pdfTeX warning (ext4): destination with the same identifier (name{equation.37})
- has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.350 \ee
-         ]
-
-Package refcheck Warning: Unlabelled equation (41) on input line 363.
-
-
-Package refcheck Warning: Unlabelled equation (42) on input line 375.
-
-
-Package refcheck Warning: Unlabelled equation (43) on input line 386.
-
-
-
-[9
-pdfTeX warning (ext4): destination with the same identifier (name{equation.41})
- has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.386 \ee
-         ]
-
-Package refcheck Warning: Unlabelled equation (44) on input line 391.
-
-
-Package refcheck Warning: Unlabelled equation (45) on input line 404.
-
-
-Package refcheck Warning: Unlabelled equation (46) on input line 414.
-
-
-Package refcheck Warning: Unlabelled equation (47) on input line 425.
-
-
-Overfull \hbox (6.65364pt too wide) in alignment at lines 417--425
- [][][] []
- []
-
-
-
-[10] (./closed_string_2pt.bbl
+(./closed_string_2pt.bbl
 
 LaTeX Warning: Empty `thebibliography' environment on input line 4.
 
 )
 
-[11] (./closed_string_2pt.aux)
+[6
+pdfTeX warning (ext4): destination with the same identifier (name{equation.24})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.200 \end{document}
+                    ] (./closed_string_2pt.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -1202,17 +1052,20 @@ L3 programming layer <2025-01-18>
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `closed_string_2pt.out' has not changed.
-(rerunfilecheck)             Checksum: D17ADE83A069C5A8855F9DC57B5D2513;446.
+(rerunfilecheck)             Checksum: A8D37E4DB508008BFA63FA8DEE70344A;343.
  ) 
 Here is how much of TeX's memory you used:
- 25061 strings out of 473190
- 464849 string characters out of 5715800
- 863097 words of memory out of 5000000
- 47764 multiletter control sequences out of 15000+600000
- 600542 words of font info for 114 fonts, out of 8000000 for 9000
+ 24982 strings out of 473190
+ 463152 string characters out of 5715800
+ 858097 words of memory out of 5000000
+ 47707 multiletter control sequences out of 15000+600000
+ 602664 words of font info for 122 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 114i,13n,115p,614b,654s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 114i,12n,115p,614b,554s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 ></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
@@ -1224,10 +1077,10 @@ l/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local
 /texlive/2025/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive
 /2025/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2025/texm
 f-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on closed_string_2pt.pdf (11 pages, 150819 bytes).
+Output written on closed_string_2pt.pdf (6 pages, 129763 bytes).
 PDF statistics:
- 210 PDF objects out of 1000 (max. 8388607)
- 173 compressed objects within 2 object streams
- 79 named destinations out of 1000 (max. 500000)
- 37 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 154 PDF objects out of 1000 (max. 8388607)
+ 122 compressed objects within 2 object streams
+ 50 named destinations out of 1000 (max. 500000)
+ 29 words of extra memory for PDF output out of 10000 (max. 10000000)
 
