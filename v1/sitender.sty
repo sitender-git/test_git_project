@@ -1,0 +1,214 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{sitender}[2020/06/30 all short commands]
+
+
+\RequirePackage{epsfig,amsfonts,amssymb,framed,amsmath,xcolor,slashed,float,caption,subcaption,multirow,times}
+
+
+
+
+\RequirePackage{slashed,cancel,upgreek,simpler-wick}
+\RequirePackage{graphicx}
+\RequirePackage{xparse}
+\RequirePackage{mathtools}
+
+
+
+% \RequirePackage{hyperref}
+
+\RequirePackage{hhline}
+\RequirePackage{verbatim}
+\RequirePackage{bm}
+\RequirePackage{array}
+
+%\RequirePackage{refcheck}
+\RequirePackage[T1]{fontenc}
+\RequirePackage{setspace}
+\RequirePackage{fancyhdr}
+
+\RequirePackage{afterpage}
+%\RequirePackage{tabu}
+
+
+\RequirePackage{epstopdf}
+
+
+\RequirePackage{hyperref}
+\RequirePackage{hhline}
+\RequirePackage{verbatim}
+\RequirePackage{bm}
+\RequirePackage{array}
+
+%\RequirePackage{refcheck}
+\RequirePackage[T1]{fontenc}
+\RequirePackage{setspace}
+\RequirePackage{fancyhdr}
+
+\RequirePackage{afterpage}
+%\RequirePackage{tabu}
+
+
+%%Math Environment
+
+\newcommand{\be}{\begin{eqnarray}}
+\newcommand{\ee}{\end{eqnarray}}
+
+\newcommand{\bg}{\begin{gather}}
+\newcommand{\eg}{\end{gather}}
+
+\newcommand{\bi}{\begin{itemize}}
+\newcommand{\ei}{\end{itemize}}
+
+\newcommand{\bse}{\begin{subequations}}
+\newcommand{\ese}{\end{subequations}}
+
+
+
+%Greek
+%lowercase
+\renewcommand{\a}{\alpha}
+\renewcommand{\b}{\beta}
+\newcommand{\g}{\gamma}
+\renewcommand{\d}{\delta}
+\newcommand{\e}{\epsilon}
+
+\newcommand{\z}{\zeta}
+\newcommand{\et}{\eta}
+\renewcommand{\t}{\theta}
+\renewcommand{\i}{\iota}
+
+\renewcommand{\k}{\kappa}
+
+\renewcommand{\l}{\lambda}
+ \newcommand{\m}{\mu}
+ \newcommand{\n}{\nu}
+
+\newcommand{\x}{\xi}
+\renewcommand{\o}{\omega}
+\newcommand{\abp}[2]{\la #1 \ra^{#2}}
+\newcommand{\sbp}[2]{\left[ #1 \right]^{#2}}
+
+
+\renewcommand{\inf}{\infty}
+\newcommand{\set}[1]{\{#1\}}
+
+\renewcommand{\r}{\rho}
+
+\newcommand{\s}{\sigma}
+
+\newcommand{\ta}{\tau}
+
+\newcommand{\ph}{\phi}
+
+\renewcommand{\c}{\chi}
+
+\newcommand{\ps}{\psi}
+
+
+%uppercase
+
+\newcommand{\ua}{\Alpha}
+\newcommand{\ub}{\Aeta}
+\newcommand{\ug}{\Gamma}
+\newcommand{\ud}{\Delta}
+\newcommand{\ue}{\Epsilon}
+
+\newcommand{\uz}{\Zeta}
+\newcommand{\uet}{\Eta}
+\newcommand{\ut}{\Theta}
+\newcommand{\ui}{\Iota}
+ 
+\newcommand{\uk}{\Kappa}
+\newcommand{\ul}{\Lambda}
+\newcommand{\um}{\Mu}
+\newcommand{\un}{\Nu}
+
+\newcommand{\ux}{\Xi}
+\newcommand{\uo}{\Omega}
+
+\newcommand{\ur}{\Rho}
+
+\newcommand{\us}{\Sigma}
+ 
+ \newcommand{\uta}{\Tau}
+\newcommand{\uph}{\Phi}
+ 
+ \newcommand{\uc}{\Chi}
+ \newcommand{\ups}{\Psi}
+% 
+% 
+
+
+%Accents 
+\newcommand{\at}{\tilde}
+\newcommand{\wat}{\widetilde}
+\newcommand{\cd}{\cdot}
+
+
+
+
+%math
+\newcommand{\tr}[1]{\text{Tr}{\,\rb{#1}}}
+
+\newcommand{\ab}[1]{\la #1 \ra}
+\renewcommand{\sb}[1]{\left[ #1 \right]}
+
+
+\renewcommand{\abp}[2]{\la #1 \ra^{#2}}
+\renewcommand{\sbp}[2]{\left[ #1 \right]^{#2}}
+
+
+\renewcommand{\inf}{\infty}
+\renewcommand{\set}[1]{\{#1\}}
+
+
+
+%colors
+\newcommand{\red}[1]{{\color{red}{#1}}}
+\newcommand{\blue}[1]{{\color{blue}{#1}}}
+\newcommand{\green}[1]{{\color{green}{#1}}}
+\newcommand{\yellow}[1]{{\color{yellow}{#1}}}
+\newcommand{\magenta}[1]{{\color{magenta}{#1}}}
+
+
+%sort the following
+
+\newcommand{\eps}{\epsilon}
+\newcommand{\vareps}{\varepsilon}
+\newcommand{\la}{\langle}
+\newcommand{\ra}{\rangle}
+\newcommand{\f}{\frac}
+\newcommand{\ve}{\varepsilon}
+\newcommand{\p}{\partial}
+\newcommand{\nn}{\nonumber}
+% \renewcommand{\ul}{\underline}
+\newcommand{\bc}{\bar{c}}
+\newcommand{\bb}{\bar{b}}
+\newcommand{\bz}{\bar{z}}
+\newcommand{\bq}{\bar{Q}}
+\newcommand{\bh}{\bar{h}}
+\newcommand{\bp}{\bar{\partial}}
+\newcommand{\non}{\nonumber}
+\newcommand{\hs}{\hspace}
+\newcommand{\ob}{\overbrace}
+\newcommand{\mc}{\mathcal}
+
+\newcommand{\fp}[3]{\ensuremath{\left(\f{{#1}}{{#2}}\right)^{{#3}}}}
+\newcommand{\rb}[1]{\ensuremath{\left({#1}\right)}}
+\newcommand{\sqb}[1]{\ensuremath{\left[{#1}\right]}}
+
+
+\NewDocumentCommand{\N}{m}{
+	\Naux#1
+}
+
+\def\Naux#1,#2{:{#1}\ {#2}:}
+
+\NewDocumentCommand{\W}{m}{
+	\Waux#1
+}
+
+\def\Waux#1,#2{\overbracket{#1\ #2}}
+
+
+
